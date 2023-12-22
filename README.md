@@ -11,7 +11,7 @@ The application has 3 Components:
  - The _ResidentsList_ view, which shows all the residents' names.
  - The _Error_ view, which is shown in case of an error.
 
-The `studentsList.js` file holds the _STUDENTS_ constant, which holds the _name_ and _validityDate_ of all the students who are part of the college. The structure of the _STUDENTS_ variable is as follows:
+The `studentsList.ts` file holds the _STUDENTS_ constant, which holds the _name_ and _validityDate_ of all the students who are part of the college. The structure of the _STUDENTS_ variable is as follows:
 - _name_: The name of the student. `<String>`
 - _validityDate_: The last valid day the student can be added to the dormitory. `<String>` of format `<yyyy-mm-dd>`
 
@@ -33,7 +33,7 @@ The app should implement the following functionalities:
  - After adding each student, the form should be cleared out.
 
 ### Note:
-- Retrieve the list of college students from the `studentsList.js` file.
+- Retrieve the list of college students from the `studentsList.ts` file.
 
 The following data-testid attributes are required in the component for the tests to pass:
 
@@ -52,7 +52,7 @@ Please note that the component has the above data-testid attributes for test cas
 
 
 **Read Only Files**
-- `src/App.test.js`
+- `src/App.test.ts
 
 
 **Commands**
